@@ -21,6 +21,18 @@ just follow the standard Vue.js process:
 
 `npm run serve`
 
+Don't forget to add your google map api key to the main.js file.
+
+## Example of the bug:
+
+Below is a screen shot of the app after the first marker has been click. It dose not matter which marker. Pay attention to the shape of the graph and the marker data:
+(first marker clicked, for the first time)[https://github.com/ChadRoberts21/ChartMapBug/blob/master/screenshots/first%20marker%20click(first%20time).PNG?raw=true]
+The next screen show just shows the data of the second marker clicked:
+(second marker click)[https://github.com/ChadRoberts21/ChartMapBug/blob/master/screenshots/second%20marker%20click(first%20time).PNG?raw=true]
+And this last screen shot shows that when the first marker is clicked for a second time its data property for the graph has now been corrupted and is equal to the data for the graph of the second marker
+(first marker clicked, for the second time)[https://github.com/ChadRoberts21/ChartMapBug/blob/master/screenshots/first%20marker%20click(second%20time).PNG?raw=true]
+
+
 ## How to Help:
 
 If you would like to help in getting this bug fixed, please feel free to clone the repo, make changes and send me pull requests. Any help you can offer is greatly appreciated.
