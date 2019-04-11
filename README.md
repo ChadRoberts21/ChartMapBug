@@ -1,6 +1,6 @@
 # MiniMap
 
-This project is to show on unusual bug that I am getting. When a user clicks on a marker in the app' map. A marker widget is meant to show the data of that marker. The marker contains a large array that is used to produce a graph. The first marker clicked seems to display and function correctly. So does the second and the third. But when the first marker is clicked again the chart data is overwritten with the chart data of the previously clicked marker. This is very inconvenient and defiantly a bug. 
+This project is to show on unusual bug that I am getting. When a user clicks on a marker in the app's map. A marker widget is meant to show the data of that marker. The marker contains a large array that is used to produce a graph. The first marker clicked seems to display and function correctly. So does the second and the third. But when the first marker is clicked again the chart data is overwritten with the chart data of the previously clicked marker. This is very inconvenient and defiantly a bug. 
 
 I have tried everything I can think of to fix this bug but nothing works:
 

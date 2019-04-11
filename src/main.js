@@ -9,7 +9,7 @@ Vue.config.productionTip = false;
 Vue.use(HighchartsVue);
 Vue.use(VueGoogleMaps, {
   load: {
-    key: "<Use your Key Here>",
+    key: "AIzaSyAUViHzPrZIh0pnDW3YYKClM8zKQ5Bfjf4",
     libraries: "places,drawing,visualization" // This is required if you use the Autocomplete plugin
     // OR: libraries: 'places,drawing'
     // OR: libraries: 'places,drawing,visualization'
